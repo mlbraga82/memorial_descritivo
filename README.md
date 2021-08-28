@@ -24,6 +24,6 @@ na ausência do `[código da parcela SIGEF]` o script irá procurar no mesmo dir
   ![Editar Ação](https://github.com/mlbraga82/memorial_descritivo/blob/b2cae23c33babb97613e98fc0ac4bf9c55aaa235/Imagem_01.png)
 
 
-## Variável de ambiente PATH precisa acrescentar o seguinte valor (necessário para a biblioteca tabula.read_pdf
-Para que a biblioteca TABULA funcione no QGIS é necessário modificar a variável de ambiente **no QGIS** para isso deve-se clicar no menu `Configurações` e depois em `Opções`. Na Aba `Sistema` procure as variáveis de ambiente e acrescente a seguinte linha:<br> `C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath` conforme figura abaixo:<br>
+## Variável de ambiente PATH precisa acrescentar o seguinte valor (necessário para a biblioteca tabula.read_pdf)
+Para que a biblioteca TABULA funcione no QGIS é necessário modificar a variável de ambiente **no QGIS** para isso deve-se clicar no menu `Configurações` e depois em `Opções`. Na Aba `Sistema` procure as variáveis de **ambiente** e acrescente a seguinte linha:<br> `C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath` conforme figura abaixo:<br>
 ![ambiente](https://github.com/mlbraga82/memorial_descritivo/blob/b2cae23c33babb97613e98fc0ac4bf9c55aaa235/Imagem_03.png)
