@@ -30,10 +30,10 @@ try:
     arquivo=io.BytesIO(r.content)
     print('Arquivo baixado!')
 except:
-    print('Erro na requisição!')
+    print('Erro na requisição! Buscando o arquivo documento.pdf no mesmo diretorio')
     arquivo='document.pdf'
     print('Verifique sua conexão com a internet.')
-    exit()
+    #exit()
 
 # In[ ]:
 
