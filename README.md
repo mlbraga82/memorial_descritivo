@@ -8,9 +8,9 @@ Este Scrypt python foi criado para ser executado, incialmente, em ambiente Windo
 A sintaxe para execução é a seguinte: `python memorial.py [código da parcela SIGEF].`
 <b><br>Exemplo:</b>
 
-`python memorial.py 84be2b9c-6883-4512-a4c7-03f8b9e494e8<br><br>`
+`python memorial.py 84be2b9c-6883-4512-a4c7-03f8b9e494e8`
 
-na ausência do `[código da parcela SIGEF]` o script irá procurar no mesmo diretório o arquivo de nome <i>document.pdf</i><br>
+<br><br>na ausência do `[código da parcela SIGEF]` o script irá procurar no mesmo diretório o arquivo de nome <i>document.pdf</i><br>
 
 ## Instalação
   Para instalação da biblioteca tabula é necessário executar o `OSGeo4W Shell` e digitar o seguinte comando:<br>
