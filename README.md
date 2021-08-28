@@ -19,7 +19,7 @@ A sintaxe para execução é a seguinte: `python memorial.py [código da parcela
  <br>
 Baixar o arquivo `memorial.py` disponível neste [LINK](https://github.com/mlbraga82/memorial_descritivo/raw/main/memorial.py) Clique com o botão direito e `"Salvar link como..."`
 ## Integração com o QGIS
-   A fim de facilitar e permitir o script executar integrado ao QGIS, vamos usar a função "Ação de feição", após após baixar o SHP (Imóvel Certificado SIGEF Total) no [site do INCRA](https://certificacao.incra.gov.br/csv_shp/export_shp.py) e abrir no QGIS, vamos em "Propriedades da camada" e clicar em ações:
+   A fim de facilitar e permitir o script executar integrado ao QGIS, vamos usar a função "Ação de feição", após baixar o SHP (Imóvel Certificado SIGEF Total) no [site do INCRA](https://certificacao.incra.gov.br/csv_shp/export_shp.py) e abrir no QGIS, vamos em "Propriedades da camada" e clicar em ações:
   ![Ações](https://github.com/mlbraga82/memorial_descritivo/blob/b2cae23c33babb97613e98fc0ac4bf9c55aaa235/Imagem_02.png)
   <br>É necessário criar uma ação com os seguintes parâmetros:
   `python [caminho do arquivo]/memorial.py [%parcela_co%]`
