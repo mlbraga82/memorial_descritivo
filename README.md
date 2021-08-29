@@ -3,7 +3,7 @@
 ![Video](https://img.youtube.com/vi/Mcih2ajWie4/0.jpg)<br>[Video de Demonstração - Youtube](https://youtu.be/Mcih2ajWie4)
 
 Script para geração de Memorial Descritivo a partir de PDF gerado pelo SIGEF do INCRA<br>
-Este Scrypt python foi criado para ser executado, incialmente, em ambiente Windows (vamos trabalhar para permitir ser executado também em Linux), necessita da biblioteca <b>tabula</b> para leitura dos dados em PDF, que por sua vez faz uso do JAVA, portanto é necessário acrescentar tanto a biblioteca do python como o o java na máquina.<br>
+Este Scrypt python foi criado para ser executado, incialmente, em ambiente Windows (vamos trabalhar para permitir ser executado também em Linux), necessita da biblioteca <b>tabula</b> para leitura dos dados em PDF, que por sua vez faz uso do JAVA, portanto é necessário acrescentar tanto a biblioteca do python como o java na máquina.<br>
   Abordaremos como acrescentar apenas a bilbioteca tabula, mas não abordaremos como instalar o Java, que em princípio a sua máquina já deve ter instalado. <br>
 A sintaxe para execução é a seguinte: `python memorial.py [código da parcela SIGEF].`
 <b><br>Exemplo:</b>
